@@ -81,9 +81,22 @@ button:hover {
 }
 
 .Image-Link {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Image {
     border: 4px solid #3882F6;
     padding: 100px 100px;
     border-radius: 24px;
+}
+
+.Text {
+    color: #1F2937;
+    padding: 10px 30px;
+    text-align: center;
 }
 
 .Description {
@@ -100,4 +113,79 @@ button:hover {
     line-height: 300px;
     text-align: center;
     align-self: stretch;
+}
+
+.Quote {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: #E5E7EB;
+    margin-bottom: 100px;
+    padding: 150px 450px;
+}
+
+.italic {
+    color: #1F2937;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.author {
+    color: #1f2936;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.Action {
+    margin: 100px 300px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    background: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Action .Text {
+    display: flex;
+    flex-flow: column wrap;
+    color: #f9faf8;
+    text-align: left;
+}
+
+.Text .Main {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.Text .Secondary {
+    font-size: 16px;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 4px solid #f9faf8;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.button2:hover {
+    background-color: #1f53a8;
+    border: 4px solid #f9faf8;
+    cursor: pointer;
+}
+
+.Copyright {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    text-align: center;
+    font-size: 16px;
+    padding: 30px 250px;
 }
