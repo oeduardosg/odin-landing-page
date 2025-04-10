@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: #1f53a8;
+    border: 4px solid #1f53a8;
+    cursor: pointer;
+}
+
+.style1 {
+    margin-bottom: 100px;
+    padding: 20px 250px;
+    background-color: #1F2937;
+}
+
+.Navigation-Bar {
+    margin-bottom: 190px;
+    display: flex;
+    gap: 16px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.Main-Info {
+    margin-bottom: 100px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Hero.Main {
+    color: #F9FAF8;
+    font-size: 60px;
+    font-weight: 950;
+    margin-bottom: 10px;
+}
+
+.Hero.Logo {
+    color: #F9FAF8;
+    font-size: 32px;
+    flex-grow: 1;
+    font-weight: 700;
+}
+
+.Hero.Secondary {
+    flex-wrap: wrap;
+    color: #E5E7EB;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Info-Header.text {
+    text-align: center;
+    font-size: 46px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.Info {
+    background-color: white;
+    margin-bottom: 100px;
+    padding: 0px 350px;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Image-Link {
+    border: 4px solid #3882F6;
+    padding: 100px 100px;
+    border-radius: 24px;
+}
+
+.Description {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.placeholder {
+    background: #6d747d;
+    color: #F9FAF8;
+    width: 1300px;
+    font-size: 24px;
+    line-height: 300px;
+    text-align: center;
+    align-self: stretch;
+}
